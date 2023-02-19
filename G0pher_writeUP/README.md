@@ -1,13 +1,13 @@
-#G0pher WriteUp
+# G0pher WriteUp
 
-#description
+## description
     Gopher went on a picnic but he doesn't want you to know, can you follow him and know where?.
 
-#category
+## category
 -reverse
 -programming
 
-#Solution
+# Solution
 -First of all we try and execute the program 
 it asks for an inputs. Entering something random will result into a length error.
 ![](First_execution.png)
@@ -30,10 +30,10 @@ the disassembled code would be a bit easier.
 
 -checking that function more we can see it compares our first few characters of the input with "shellmates{"
 and the last one with "}" to verify the input format.
-(#format_verification_1.png)
-(#format_verification_2.png)
+![](format_verification_1.png)
+![](format_verification_2.png)
 we can see more clearly how it compares the last characters of the input with "}" in gdb.
-(#format_verification_3.png)
+![](format_verification_3.png)
 
 -returning to the main function.
 
