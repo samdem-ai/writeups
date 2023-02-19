@@ -45,7 +45,6 @@ After executing the file command on our binary we see that our binary files has 
  - checking that function more we can see it compares our first few characters of the input with "shellmates{"
 and the last one with "}" to verify the input format.
 
-![](format_verification_1.png)
 <p align="center">
     <img src="https://raw.githubusercontent.com/samdem-ai/writeups/main/G0pher_writeUP/format_verification_1.png">
 </p>
