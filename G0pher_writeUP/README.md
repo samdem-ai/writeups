@@ -11,7 +11,7 @@
  - First of all we try and execute the program it asks for an inputs. Entering something random will result into a length error.
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/samdem-ai/writeups/main/G0pher_writeUP/First_execution.png">
+    <img src="https://raw.githubusercontent.com/samdem-ai/writeups/main/G0pher_writeUP/FIrst_execution.png">
 </p>
 
  - So now we know that it is checking for a specific length in our input.
@@ -25,7 +25,7 @@ After executing the file command on our binary we see that our binary files has 
  - now we open our binary in ida and we see that it has more than 4800 functions we can assume that this code was written in go by the amount of unusual functions that don't really serve for anything in the actual program and we also see that it executes the main function in the main.go file using gdb.
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/samdem-ai/writeups/main/G0pher_writeUP/functions.png>
+    <img src="https://raw.githubusercontent.com/samdem-ai/writeups/main/G0pher_writeUP/functions.png">
 </p>
 
 
