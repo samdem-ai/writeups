@@ -13,7 +13,7 @@
 ![](First_execution.png)
 
 <p align="center">
-    <img width="200" src="First_execution.png" alt="Material Bread logo">
+    <img width="200" src="./First_execution.png">
 </p>
 
  - So now we know that it is checking for a specific length in our input.
