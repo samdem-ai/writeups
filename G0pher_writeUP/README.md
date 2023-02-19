@@ -19,8 +19,7 @@ After executing the file command on our binary we see that our binary files has 
 
  - now we open our binary in ida and we see that it has more than 4800 functions we can assume that this code was written in go by the amount of unusual functions that don't really serve for anything in the actual program and we also see that it executes the main function in the main.go file using gdb.
 
-![](functions.png){:style="display: block; margin: 0 auto" }
-<img src='functions.png' align='center'>
+<img src='./functions.png' align='center'>
 
  - We see that after scanning our input the program calls a CheckInput function.
 
