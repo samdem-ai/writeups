@@ -17,13 +17,13 @@ it asks for an inputs. Entering something random will result into a length error
 <p>/After executing the file command on our binary we see that our binary files has debug info and it was not striped so reading the disassembled code would be a bit easier.</p>
 ![](file_command.png)
 
--now we open our binary in ida and we see that it has more than 4800 functions we can assume that this code was written in go by the amount of unusual functions that don't really serve for anything in the actual program and we also see that it executes the main function in the main.go file using gdb.
-![](functions.png)
+<p>-now we open our binary in ida and we see that it has more than 4800 functions we can assume that this code was written in go by the amount of unusual functions that don't really serve for anything in the actual program and we also see that it executes the main function in the main.go file using gdb.
+![](functions.png)</p>
 
--We see that after scanning our input the program calls a CheckInput function.
+<p>-We see that after scanning our input the program calls a CheckInput function.</p>
 (function_checkInput.png)
 
--Going thru it we can find where it is checking length and we find it to be 0x1c or 28 characters.
+<p>-Going thru it we can find where it is checking length and we find it to be 0x1c or 28 characters.</p>
 ![](length_verification.png)
 
 
