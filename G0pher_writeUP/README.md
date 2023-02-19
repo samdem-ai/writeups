@@ -9,11 +9,12 @@
 
 # Solution
  - First of all we try and execute the program it asks for an inputs. Entering something random will result into a length error.
-<center>
 
 ![](First_execution.png)
 
-</center>
+<p align="center">
+    <img width="200" src="http://material-bread.org/logo-shadow.svg" alt="Material Bread logo">
+</p>
 
  - So now we know that it is checking for a specific length in our input.
 
