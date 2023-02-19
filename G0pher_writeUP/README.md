@@ -13,7 +13,7 @@
 ![](First_execution.png)
 
 <p align="center">
-    <img width="200" src="./First_execution.png">
+    <img width="200" src="/G0pher_writeUP/First_execution.png">
 </p>
 
  - So now we know that it is checking for a specific length in our input.
