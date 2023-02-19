@@ -13,7 +13,7 @@
 ![](First_execution.png)
 
 <p align="center">
-    <img width="200" src="/G0pher_writeUP/First_execution.png">
+    <img src="https://raw.githubusercontent.com/samdem-ai/writeups/main/G0pher_writeUP/lFirst_execution.png">
 </p>
 
  - So now we know that it is checking for a specific length in our input.
