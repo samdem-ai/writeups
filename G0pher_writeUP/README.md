@@ -1,5 +1,5 @@
 <style>
-img
+*
 {
     display:block;
     float:none;
